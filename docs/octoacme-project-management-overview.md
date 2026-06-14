@@ -16,8 +16,14 @@ Applies to all cross-functional projects that deliver product features, services
 ## Core Roles
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Delivery Lead: owns sprint-level execution, removes impediments.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
+- Engineering Manager: team staffing, capacity, and technical oversight.
+- UX Designer / Researcher: user research, design assets, UX acceptance criteria.
+- QA Lead / Test Engineer: test strategy, automation, and release quality gate.
+- Release / Platform Engineer: CI/CD pipelines, deployments, and rollback procedures.
+- Technical Writer / Docs Owner: user and developer docs, release notes, runbooks.
+- Security / Compliance Representative: threat modeling, security reviews, compliance.
 - Stakeholders: provide inputs and approvals.
 
 ## Key Artifacts
@@ -27,6 +33,7 @@ Applies to all cross-functional projects that deliver product features, services
 - Acceptance Criteria & Definition of Done
 - Risk Register
 - Retrospective notes and action items
+- Phase Handoff Checklists (see [Handoffs & Phase Checklists](octoacme-handoffs-and-checklists.md))
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.

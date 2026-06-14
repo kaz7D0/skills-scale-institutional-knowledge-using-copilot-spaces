@@ -29,12 +29,16 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- Level 1 (0–24 h): Team-level triage in daily standup. Delivery Lead attempts to resolve.
+- Level 2 (24–48 h): Delivery Lead escalates to PM. PM engages dependent teams or Product Lead.
+- Level 3 (48 h+): PM escalates to Sponsor / Engineering Manager for business-impacting issues.
+- Security blockers: escalate immediately to the Security / Compliance Representative and PM, regardless of level.
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
-- [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] CI configured for tests, lint, and security scanning
+- [ ] Regular demos scheduled (end of each sprint or milestone)
+- [ ] Risk register updated weekly by PM
+- [ ] QA Lead has confirmed test coverage before sprint demos
+- [ ] Technical Writer notified of completed features requiring doc updates
+- [ ] Security scanning passing in CI; vulnerabilities triaged with Security Rep
