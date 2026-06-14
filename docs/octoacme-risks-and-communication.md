@@ -38,5 +38,7 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- Team-level → PM (within 24 h of blocker identified)
+- PM → Product Lead (within 48 h if unresolved)
+- Product Lead → Sponsor (for business-impacting issues, same day)
+- Security incidents: immediate escalation to Security Rep and PM; follow the security incident runbook and notify Security on-call within 1 hour
